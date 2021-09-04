@@ -1,0 +1,15 @@
+# check: https://editorconfig.org/
+# 
+
+[{*.cpp,*.cxx,*.hpp,*.hxx}]
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
+[{config,preinst,postinst,postrm,prerm}]
+indent_size = 2
+indent_style = space
+
+[CMakeLists.txt]
+indent_size = 2
+indent_style = space
